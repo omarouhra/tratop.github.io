@@ -1,0 +1,90 @@
+
+.picSection{
+    position: relative;
+    height:500px;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+   
+}
+.btng {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 200px;
+    background-color: rgba(0, 31, 63, 0.66);
+    z-index: 2;
+}
+.gallery {
+    border: 3px dashed #ADEFD1FF;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s;
+}
+
+.gallery:hover{
+    border: 3px solid white;
+    padding: 30px 30px;
+    background-color: rgba(173, 239, 209, 0.734);
+    color: #00203F;
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+
+#slider figure {
+	position: relative;
+    width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 12s slider infinite;
+}
+
+#slider figure img {
+     width: 10%;
+    float: left;
+    opacity: 0.7;
+}
+
+
+
+@keyframes slider {
+	0%{
+        left: 0%;
+    }
+	10% {
+		left: 0%;
+	}
+	20% {
+		left: -100%;
+    }
+    30%{
+        left: -100%;
+    }
+	40% {
+		left: -200%;
+	}
+	60% {
+		left: -200%;
+	}
+	70% {
+		left: -300%;
+	}
+	80% {
+		left: -300%;
+    }
+    90% {
+		left: -400%;
+	}
+	
+    100% {
+        left: -400%;
+    }
+    100% {
+        left: 0%;
+    }
+}

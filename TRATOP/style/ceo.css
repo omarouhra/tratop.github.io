@@ -1,0 +1,86 @@
+#teamPage{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.462), rgba(0, 0, 0, 0.354)),url('https://images.unsplash.com/photo-1542822038-3a1810a5fb69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3289&q=80');
+    background-position:center;
+    justify-content: center;
+    align-content: center;
+}
+#pageContent{
+    position: absolute;
+    height: 250px;
+    width: 50%;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+
+#motCeo{
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    text-align: center;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+ 
+#motCeo::after {
+    content: " " ;
+    position: absolute;
+    bottom: -15px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 3px;
+    background-color: #ADEFD1FF;
+}
+
+#ceoText {
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+    color: #ffff;
+    width: 100%;
+    font-style: italic;
+    font-size: 30px;
+    text-align: justify;
+    outline:none;
+    font-weight: 400;
+}
+
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    color: #ADEFD1FF;
+    top: 10px;
+    left: -5px;
+}
+blockquote::after {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    color: #ADEFD1FF;
+    top: 160px;
+    left: 97%;
+    
+}
+
+
+
+

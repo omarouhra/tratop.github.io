@@ -1,0 +1,121 @@
+.contact{
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    background-color: rgba(230, 224, 224, 0.612);
+}
+
+.contactContent i{
+    position: absolute;
+    top: 18%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+}
+
+.mapBox{
+    position: absolute;
+    height: 500px;
+    width: 35%;
+    background: #ffffff ;
+    box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.448);
+    top:50%;
+    left:75%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+.contactBox{
+    position: absolute;
+    height: 750px;
+    width: 40%;
+    background: rgb(255, 255, 255) ;   
+    box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.448);
+    top:50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+   
+}
+
+.contactBox h2{
+    color: #ADEFD1FF;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.contactBox form{
+    margin-top:100px ;
+    
+}
+.input-field{
+    position: relative;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 65px;
+    
+}
+.input-field input,
+.input-field textarea{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #00203F;
+    font-size: 16px;
+    color: #00203F;
+    font-weight: 700;
+    text-transform: uppercase;
+
+
+}
+.input-field label{
+    position: absolute;
+    top: 0;left: 0;
+    padding: 5px 0;
+    pointer-events: none;
+    font-size: 16px;
+    color: #666;
+    font-weight: 700;
+    transition: 1s;
+}
+.input-field input:focus+label,
+.input-field textarea:focus+label,
+.input-field input:valid+label,
+.input-field textarea:valid+label{
+    top: -25px;
+    font-size: 14px; 
+    padding: 2px 5px;
+    background: rgb(1, 103, 204);
+    color: #fff;
+    border-radius: 4px;
+
+}
+
+
+  
+.Submit{
+    position: absolute;
+    left: 50%;
+    top: 93%;
+    transform: translate(-50%,-50%);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #ADEFD1FF;
+    z-index: 2;
+    border: none;
+    color: #fff;
+    transition: all 0.2s;
+    font-size: 16px;
+}
+
+.Submit:hover{
+   background: #00203F;
+}
+#local{
+    height: 100%;
+    width: 100%;
+}

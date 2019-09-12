@@ -1,0 +1,45 @@
+.exepSection {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    z-index: 99;
+}
+
+.exepSection p{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 250%;
+    font-weight: 400;
+    width: 100%;
+    word-spacing: 2px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #02376b;
+}
+
+.exepSection p:after{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    height: 6px;
+    background-color: rgb(157, 228, 196);
+    content: " ";
+    width: 250px;
+    margin-top: 40px;
+
+}
+
+.iconn {
+    position: absolute;
+    display: block;
+    font-size: 130px;
+    color: #ADEFD1FF;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+  

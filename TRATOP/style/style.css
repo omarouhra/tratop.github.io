@@ -1,0 +1,41 @@
+@import 'container.css';
+@import 'nav.css';
+@import 'exepSection.css';
+@import 'slide.css';
+@import 'slide.css';
+@import 'banner.css';
+@import 'team.css';
+@import 'ceo.css';
+@import 'service.css';
+@import 'partenaire.css';
+@import 'bureau.css';
+@import 'contact.css';
+@import 'footer.css';
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    font-family: 'lato', arial, sans-serif;
+    color: rgb(65, 66, 66);
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+
+header {
+    background-image: linear-gradient(rgba(167, 183, 187, 0.387), rgba(245, 245, 245, 0.259)), url('img/topopic.jpg'); 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+

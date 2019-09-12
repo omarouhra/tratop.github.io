@@ -1,0 +1,186 @@
+#servicePage{
+    position: relative;
+    height: 900px;
+    width: 100%;
+    background-size:cover;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-color: rgba(255, 255, 255, 0.891);
+    justify-content: center;
+    align-content: center;
+}
+ 
+.serviceContent{
+    position: absolute;
+    height: 700px;
+    width: 62%;
+    background: rgba(173, 239, 209, 0.503) ;
+    border-radius:2%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.serviceCart{
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.259)), url('img/topometrie.jpeg') ;
+    background-position:center;
+    background-size:cover;
+    top:45%;
+    left: 0%;
+    box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.448);
+    transform: translate(-50%,-50%);
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;    
+    z-index: 1;
+}
+.serviceCart:hover, .serviceCart1:hover, .serviceCart2:hover{
+    opacity: 0;
+}
+
+
+
+.serviceCart1{
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.462), rgba(0, 0, 0, 0.259)),url('img/laser.jpg') ;
+    background-position:center;
+    background-size:cover;    top:67%;
+    left: 50%;
+    box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.448);
+    transform: translate(-50%,-50%);
+    transition: opacity 0.5s ease-in-out;    
+    z-index: 1;
+}
+.serviceCart2{
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.462), rgba(0, 0, 0, 0.259)), url('img/scanner5-gd.jpg') ;
+    background-position:center;
+    background-size:cover;    top:45%;
+    box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.448);
+    left: 100%;
+    transform: translate(-50%,-50%);
+    transition: opacity 0.5s ease-in-out;    
+    z-index: 1;
+}
+.serviceCart3{
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    background: rgba(0, 31, 63, 0.85); 
+    top:45%;
+    left: 0%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+    z-index: 1;
+}
+.serviceCart4{
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    background: rgba(0, 31, 63, 0.85); 
+    top:67%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+    z-index: 1;
+}
+.serviceCart5{
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    background:rgba(0, 31, 63, 0.85); 
+    top:45%;
+    left: 100%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+    transform:  all 2s ease ;
+    z-index: 1;
+}
+.serviceContent h2{
+ position: relative;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+  top: 0%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: rgb(255, 255, 255);
+}
+
+
+
+.serviceContent h4{
+    position: relative;
+    text-align: center;
+    font-size: 39px;
+    font-weight: 500;
+    top: 45%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffff;
+}
+.serviceContent h4::after{
+    content: " " ;
+    position: absolute;
+    bottom: -20px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 4px;
+    background-color: #ADEFD1FF;
+}
+.serviceContent p::before{
+    content: " ";
+    position: absolute;
+    top:-5%;
+    left: 6%;
+    transform: translate(-50%,-50%);
+    width: 30px;
+    height: 4px;
+    background-color: #ADEFD1FF;
+}
+.serviceContent p{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    top: 25%;
+    color: #ffff;
+    margin: 0 50px;
+    text-align: justify;
+}
+.serviceContent p::after{
+    content: " ";
+    position: absolute;
+    top:100%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    width: 30px;
+    height: 4px;
+    background-color: #ADEFD1FF;
+}
+
+.plus{
+    position: absolute;
+    top: 89.4%;
+    left: 81%
+
+}
+.plus i{
+    color: #00203F;
+    font-size: 100px;
+    transform: all  ease-in-out;
+}
+
+.plus i:hover{
+    color: rgb(107, 150, 131);
+    font-size: 150px;
+    left: 100%
+}
+

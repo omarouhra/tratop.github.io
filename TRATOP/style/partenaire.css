@@ -1,0 +1,94 @@
+#partenaire{
+    position: relative;
+    height: 700px;
+    width: 100%;
+    background-size:cover;
+    background-color: rgba(155, 221, 191, 0.639);
+    justify-content: center;
+    align-content: center;
+}
+#partenaire h2{
+  position: relative;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+  top: 5%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: rgb(255, 255, 255);
+}
+.partContent{
+  position: absolute;
+  height: 400px;
+  width: 62%;
+  background: rgba(255, 255, 255, 0.68) ;
+  box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.448);
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.part1{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  background-color: #ffffff;
+  top:50%;
+  left: 0%;
+  box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.448);
+  transform: translate(-50%,-50%);
+}
+.imgp{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+#agadir,#agadir1{
+  width: 200px;
+  height: 150px;
+}
+.part2{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  background: #ffffff; 
+  top:50%;
+  left: 25%;
+  box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.448);
+  transform: translate(-50%,-50%);
+}
+.part3{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  background: #ffffff; 
+  top:50%;
+  left: 50%;
+  box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.448);
+  transform: translate(-50%,-50%);
+}
+.part4{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  background: #ffffff; 
+  top:50%;
+  left: 75%;
+  box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.448);
+  transform: translate(-50%,-50%);
+}
+.part5{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  background: #ffffff; 
+  top:50%;
+  left: 100%;
+  box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.448);
+  transform: translate(-50%,-50%);
+}
+
+
+
+

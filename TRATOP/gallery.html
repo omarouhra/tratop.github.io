@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gallerie</title>
+    <link rel="stylesheet" href="style/gallery.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+          <a href="index.html"><img src="style/img/T1.png" alt="TRATOP-LOGO" class="logo"></a>
+          <ul class="mainNav">
+                                         <li><a href="history.html">L'AGENCE</a> </li>
+                                         <li><a href="#">PROJETS</a> </li>
+                                         <li><a href="services.html">SERVICES </a> </li>
+                                         <li><a href="team.html">EQUIPE </a> </li>
+                                         <li><a href="carriere.html">CARRIERE</a> </li>           
+                                                                      </ul>
+</nav>
+</header>
+
+    <div class="gallery-section">
+      <div class="inner-width">
+        <h1> Gallerie</h1>
+        <div class="border"></div>
+         
+        <div class="gallery">
+
+          <a href="style/img/bureau.jpg" class="image">
+            <img src="style/img/bureau.jpg" alt="">
+          </a>
+
+          <a href="style/img/bureau1.jpg" class="image">
+            <img src="style/img/bureau1.jpg" alt="">
+          </a>
+
+          <a href="style/img/bureau2.JPG" class="image">
+            <img src="style/img/bureau2.JPG" alt="">
+          </a>
+
+          <a href="style/img/bureau3.JPG" class="image">
+            <img src="style/img/bureau3.JPG" alt="">
+          </a>
+
+          <a href="style/img/bureau4.JPG" class="image">
+            <img src="style/img/bureau4.JPG" alt="">
+          </a>
+
+          <a href="style/img/bureau5.JPG" class="image">
+            <img src="style/img/bureau5.JPG" alt="">
+          </a>
+
+          <a href="style/img/bureau6.jpg" class="image">
+            <img src="style/img/bureau6.JPG" alt="">
+          </a>
+
+          <a href="style/img/bureau8.jpg" class="image">
+            <img src="style/img/bureau8.JPG" alt="">
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+
+  <script>
+    $(".gallery").magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      gallery:{
+        enabled: true
+      }
+    });
+  </script>
+
+  </body>
+  <footer>
+    <div class="copy">
+        <p class="cp-text">
+                © Copyright 2019 TRATOP. All rights reserved.
+            </p>
+</div>
+</footer>
+</html>

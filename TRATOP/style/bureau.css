@@ -1,0 +1,10 @@
+.BUREAU{
+    display: block;
+    height: 600px;
+    width: auto;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.292), rgba(248, 246, 246, 0.306)), url('img/bureau.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}

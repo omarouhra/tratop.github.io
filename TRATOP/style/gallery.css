@@ -1,0 +1,169 @@
+header {
+  height: 200px;
+  background-color: rgba(0, 31, 63, 0.748);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  font-family: 'lato', arial, sans-serif;
+  color: rgb(65, 66, 66);
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+.nav {
+  max-width: 1500px;
+  margin:  auto;
+}
+
+.logo {
+  height: 180px;
+  width: auto;
+  float: left;
+  margin-top: 20px;  
+}
+
+.mainNav{
+  float: right;
+  display: inline-block;
+  list-style: none;
+}
+
+.mainNav li{
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.mainNav li a {
+  padding: 8px 0;
+  color: #FFFF;
+  border-bottom: 3px solid #fff transparent;
+  transition:  border 0.5s;
+
+}
+
+.mainNav li a:hover {
+  color: #00203f;
+  border-bottom: 3px dashed #ADEFD1FF;
+
+}
+
+.mainNav li a {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-decoration: none;
+}
+  .gallery-section{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+  }
+  
+  .inner-width{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  .gallery-section h1{
+    position :absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(1, 71, 141);
+    font-size: 40px;
+  }
+  
+  .border{
+    position :absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    height: 5px;
+    background: #ADEFD1FF;
+    margin: 10px auto;
+  }
+  
+  .gallery-section .gallery{
+    margin-top:15%; 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  
+  .gallery-section .image{
+    flex: 25%;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .gallery-section .image img{
+    width: 115%;
+    height: 100%;
+    transition: 1s;
+  }
+  
+  .gallery-section .image:hover img{
+    transform: scale(1.5) ;
+  }
+  .copy{
+    margin-top: 200px;
+    
+    width: 100%;
+    background: rgb(110, 109, 109) ;   
+   
+}
+.cp-text{ 
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    
+}
+.ic{
+  position :relative;
+  left: -20%;
+  height: 80px;
+  width: 80px;
+  background-color: #ADEFD1FF;
+  border-radius: 50% ;
+}
+.icon{
+  position: absolute;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+  
+  @media screen and (max-width:960px) {
+    .gallery-section .image{
+      flex: 33.33%;
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    .gallery-section .image{
+      flex: 50%;
+    }
+  }
+  
+  @media screen and (max-width:480px) {
+    .gallery-section .image{
+      flex: 100%;
+    }
+  }
+
+  
